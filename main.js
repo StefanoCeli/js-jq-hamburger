@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     //usando la variabile creata prima vado a dire che quando effettuerò il click farà apparire il menu con un'animazione di 1 secondo
     icona_ham.click(function(){
-            menu_ham.show(1000);
+        menu_ham.show(1000);
     });
 
     //usando la variabile creata prima vado a dire che quando effettuerò il click farà scomparire il menu con un'animazione di 1 secondo
@@ -18,7 +18,7 @@ $(document).ready(function(){
     //---------------------------------------------------------------------------------------
 
     // secondo metodo,qui creo una funzione unica per far apparire e scomparire il menu
-    
+
     //chiamata alla funzione
     visualizzaMenu();
     //definisco la funzione
